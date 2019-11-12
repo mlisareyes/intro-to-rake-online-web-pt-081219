@@ -13,6 +13,6 @@ desc 'outputs hello to the terminal'
   desc 'migrate changes to your database'
   task :environment do
   require_relative './config/environment'
-    Student.create_table
+  Student.create_table
   end
 end
